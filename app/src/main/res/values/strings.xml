@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">T1_practica</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="crear_nota">CREAR NOTA</string>
+    <string name="crear_formulario">CREAR FORMULARIO</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InsertarActivity">
+
+    <EditText
+        android:id="@+id/vNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre:"
+        android:inputType="textPersonName"
+        android:textColor="#0C0D12"
+        android:textColorHint="#0B0505"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/vDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Descripcion:"
+        android:inputType="textPersonName"
+        android:textColorHint="#050404"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/vFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Fecha:                           EJ: 12/04/2022  11:45"
+        android:inputType="datetime"
+        android:textColor="#070505"
+        android:textColorHint="#120B0B"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/vContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Contacto o telefono:"
+        android:inputType="textPersonName"
+        android:textColorHint="#150E0E"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/vGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:shadowColor="#4A2525"
+        android:text="Guardar"
+        android:textColor="#D6CECE"
+        android:textColorHint="#090707"
+        app:cornerRadius="25dp"/>
+
+
+</LinearLayout>

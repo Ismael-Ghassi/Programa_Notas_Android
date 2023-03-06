@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VerActivity">
+
+
+    <TextView
+        android:id="@+id/NomView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre" />
+
+    <EditText
+        android:id="@+id/vNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/DesView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripcion:" />
+
+    <EditText
+        android:id="@+id/vDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/fecView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha:" />
+
+    <EditText
+        android:id="@+id/vFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:textSize="20sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/telView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contacto o telefono:" />
+
+    <EditText
+        android:id="@+id/vContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/vGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:textColorHint="#090707"
+        app:cornerRadius="25dp"
+        android:backgroundTint="@color/cardview_dark_background"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnllamar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:src="@drawable/icono_llamar"
+        android:backgroundTint="#2BCD17"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnsms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:src = "@drawable/icono_sms"
+        android:backgroundTint="#193CEA"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_editar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:clickable="true"
+        android:src="@drawable/icono_editar"
+        app:rippleColor="#FFFFFF"
+        android:backgroundTint="#D527E1"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_eliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:clickable="true"
+        android:src="@drawable/icono_eliminar"
+        android:backgroundTint="#B31616"/>
+
+</LinearLayout>
